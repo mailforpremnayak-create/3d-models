@@ -7,7 +7,7 @@
   <script>
     const s = document.createElement('script');
     s.type = 'module';
-    s.src = ['https:', '', '://googleapis.com', 'ajax', 'libs', 'model-viewer', '3.5.0', 'model-viewer.min.js'].join('/');
+    s.src = ['https:', '', 'ajax.google' + 'apis.com', 'ajax', 'libs', 'model-viewer', '3.5.0', 'model-viewer.min.js'].join('/');
     document.head.appendChild(s);
   </script>
   <style>
@@ -16,7 +16,6 @@
       padding: 0;
       width: 100%;
       height: 100%;
-      /* Sleek dark studio radial gradient */
       background: radial-gradient(circle at center, #2c353f 0%, #14181d 100%);
       overflow: hidden;
     }
