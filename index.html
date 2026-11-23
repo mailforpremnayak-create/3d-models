@@ -4,7 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>3D Model Viewer</title>
-  <script type="module" src="https://googleapis.com"></script>
+  <script>
+    const s = document.createElement('script');
+    s.type = 'module';
+    s.src = 'https://ajax.googleapis.com' + '/ajax/libs/model-viewer/3.5.0/model-viewer.min.js';
+    document.head.appendChild(s);
+  </script>
   <style>
     body, html {
       margin: 0;
